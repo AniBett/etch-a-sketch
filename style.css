@@ -1,0 +1,41 @@
+.Title{
+  text-align: center;
+  font-size: 100px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 5vh;
+    
+   
+   
+}
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+  
+}
+#rangeInput{
+    width: 7vw;
+}
+.container {
+    box-sizing: content-box;
+    display: grid;
+    height: 600px;
+    width: 600px;
+    border: 1px rgba(0, 0, 0, 0.404) solid;
+  }
+  
+  .cell {
+    border: 1px rgba(0, 0, 0, 0.041) solid;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+
